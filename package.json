@@ -1,0 +1,19 @@
+{
+  "name": "@zenginehq/backend-get-service-url",
+  "version": "1.0.0",
+  "description": "Helper library for determining the backend service url",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZengineHQ/zn-backend-get-service-url.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/_bootstrap.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
