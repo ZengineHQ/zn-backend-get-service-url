@@ -1,6 +1,6 @@
 {
 	"name": "@zenginehq/backend-get-service-url",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Helper library for determining the backend service url",
 	"main": "index.js",
 	"devDependencies": {
