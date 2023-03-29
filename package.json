@@ -27,9 +27,9 @@
 		"access": "public"
 	},
 	"git": {
-		"changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template compact"
+		"changelog": "npx auto-changelog --stdout --commit-limit false --unreleased"
 	},
 	"hooks": {
-		"after:bump": "npx auto-changelog --template compact -p"
+		"after:bump": "npx auto-changelog -p"
 	}
 }
